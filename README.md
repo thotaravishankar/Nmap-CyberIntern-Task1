@@ -1,4 +1,4 @@
-# Nmap-CyberIntern-Task1
+<img width="807" height="805" alt="Screenshot 2025-09-22 204905" src="https://github.com/user-attachments/assets/c83a84d6-a9f7-4b78-a6ce-297ca64871fd" /># Nmap-CyberIntern-Task1
 
 
 Task 1 — Scan Your Local Network for Open Ports
@@ -37,33 +37,13 @@ UDP scan for one host (takes longer):
 
 sudo nmap -sU 192.168.1.10 -oN udp_scan_host.txt
 
+findings :
 
-Open Ports:
-80/tcp (http) — Router admin panel
-443/tcp (https) — Secure router interface
-Host: 192.168.1.10 (Linux Server)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
 
-Open Ports:
 
-22/tcp (ssh) — Secure Shell service
-
-3306/tcp (mysql) — MySQL database
-
-Host: 192.168.1.15 (Windows Laptop)
-
-Open Ports:
-
-445/tcp (microsoft-ds) — SMB file sharing
-
-139/tcp (netbios-ssn) — NetBIOS
-
-Host: 192.168.1.25 (IoT Camera)
-
-Open Ports:
-
-554/tcp (rtsp) — Real Time Streaming Protocol
-
-80/tcp (http) — Camera web interface
 
 Risk Assessment
 
