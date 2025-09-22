@@ -1,4 +1,4 @@
-<img width="807" height="805" alt="Screenshot 2025-09-22 204905" src="https://github.com/user-attachments/assets/c83a84d6-a9f7-4b78-a6ce-297ca64871fd" /># Nmap-CyberIntern-Task1
+# Nmap-CyberIntern-Task1
 
 
 Task 1 — Scan Your Local Network for Open Ports
@@ -64,3 +64,8 @@ Close unnecessary ports or restrict them with firewalls.Use strong authenticatio
 Wireshark Observations:
 
 Captured multiple TCP SYN packets during scan. Hosts replied with SYN-ACK on open ports, and RST on closed ports. Some hosts showed ICMP unreachable messages for filtered UDP ports.
+
+images of wireshark findings:
+
+<img width="807" height="805" alt="Screenshot 2025-09-22 204905" src="https://github.com/user-attachments/assets/c83a84d6-a9f7-4b78-a6ce-297ca64871fd" />
+<img width="810" height="801" alt="Screenshot 2025-09-22 204954" src="https://github.com/user-attachments/assets/d40ec02d-8dab-4121-97f6-75596a784dd3" />
